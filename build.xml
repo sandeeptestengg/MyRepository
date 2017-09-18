@@ -4,7 +4,7 @@
 
 <project name="Learning TestNG" default="usage" basedir=".">  
 
-<!-- ========== Initialize Properties =================================== -->
+<!-- ========== Initialize Propertie =================================== -->
     <property environment="env"/>
     
     <property name="ws.home" value="${basedir}"/>
@@ -65,7 +65,7 @@
             debug="true" 
             destdir="${test.dest}" 
             srcdir="${test.src}" 
-            target="1.8" 
+            target="1.5" 
             classpath="${test.classpath}"
         >
         </javac>
@@ -81,8 +81,8 @@
             <xmlfileset dir="${ws.home}" includes="testng.xml"/>
         </testng>
     	
-        <!--
-      <testng classpath="${test.classpath}:${test.dest}" groups="fast">
+    	        <!--
+        <testng classpath="${test.classpath}:${test.dest}" groups="fast">
             <classfileset dir="${test.dest}" includes="example1/*.class"/>
       </testng>
         -->
