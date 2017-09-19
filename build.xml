@@ -4,7 +4,7 @@
 
 <project name="Learning TestNG" default="usage" basedir=".">  
 
-<!-- ========== Initialize Properties Modification =================================== -->
+<!-- ========== Initialize Properties Modify =================================== -->
     <property environment="env"/>
     
     <property name="ws.home" value="${baedir}"/>
