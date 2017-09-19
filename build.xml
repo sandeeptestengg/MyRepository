@@ -4,7 +4,7 @@
 
 <project name="Learning TestNG" default="usage" basedir=".">  
 
-<!-- ========== Initialize Properties Modify Trigger 3 =================================== -->
+<!-- ========== Initialize Properties Modify Trigger 4 =================================== -->
     <property environment="env"/>
     
     <property name="ws.home" value="${basedir}"/>
