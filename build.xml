@@ -4,10 +4,10 @@
 
 <project name="Learning TestNG" default="usage" basedir=".">  
 
-<!-- ========== Initialize Properties Modify =================================== -->
+<!-- ========== Initialize Properties Modification =================================== -->
     <property environment="env"/>
     
-    <property name="ws.home" value="${basedir}"/>
+    <property name="ws.home" value="${baedir}"/>
 	<property name="ws.jars" value="${ws.home}/jars-core"/>
     <property name="test.dest" value="${ws.home}/build"/>
     <property name="test.src" value="${ws.home}/src"/>
